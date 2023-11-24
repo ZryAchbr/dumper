@@ -63,7 +63,7 @@ def search_leaked_data():
             
             
   #Contact Development
-  def contact():
+  def contact_development():
     print("Whatsapp : +6289518439944")
     print("Telegram : t.me/R3V0LUSIJB3N")
 
@@ -85,7 +85,7 @@ while(True):
     elif choice == "2":
         search_leaked_data()
     elif choice == "3":
-      
+        contact_development()
     elif choice == "4":
         break
     else:

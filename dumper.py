@@ -60,12 +60,6 @@ def search_leaked_data():
         print("\nShowing results for "+table_name+": ")
         for r in records:
             print(r)
-            
-            
-  #Contact Development
-  def contact_development():
-    print("Whatsapp : +6289518439944")
-    print("Telegram : t.me/R3V0LUSIJB3N")
 
 #Main menu
 print("Welcome to the Database Leak Finder")
@@ -75,9 +69,8 @@ while(True):
     print("")
     print("Choose an option from below:")
     print("1. List All Records")
-    print("2. Search for Leaked Data")
-    print("3. Contact Development")
-    print("4. Exit")
+    print("2. Search for Leaked Data"
+    print("3. Exit")
     choice = input()
 
     if choice == "1":
@@ -85,8 +78,6 @@ while(True):
     elif choice == "2":
         search_leaked_data()
     elif choice == "3":
-        contact_development()
-    elif choice == "4":
         break
     else:
         print("Not a valid option")

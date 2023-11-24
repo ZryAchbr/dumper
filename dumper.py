@@ -70,11 +70,9 @@ while(True):
     print("Choose an option from below:")
     print("1. List All Records")
     print("2. Search for Leaked Data")
-    choice = input()
+    choice = input("?? : ")
 
     if choice == "1":
         print_all_records()
     elif choice == "2":
         search_leaked_data()
-    else:
-        print("Not a valid option")

@@ -79,5 +79,6 @@ while(True):
         search_leaked_data()
     elif choice == "3":
         break
+        print("Keluar Dari Program")
     else:
         print("Not a valid option")

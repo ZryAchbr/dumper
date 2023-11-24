@@ -70,7 +70,7 @@ while(True):
     print("Choose an option from below:")
     print("1. List All Records")
     print("2. Search for Leaked Data"
-    print("3. Exit")
+    print("3. Keluar")
     choice = input()
 
     if choice == "1":
